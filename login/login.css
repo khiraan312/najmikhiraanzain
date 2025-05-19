@@ -1,0 +1,73 @@
+body {
+padding:0;margin:0 auto;
+    background:#ffcfed;
+	min-width: 300px;
+}
+#head{
+    display: block;
+    background: #fa3efa;
+    width: 100%;
+    position:relative;
+    top:-37px;
+}
+#logo{
+position: relative;
+    top:30px;
+}
+
+legend{
+    position:relative;
+    top:-28px;
+    color:#000000;
+    font-size: 18px;
+    font-family:sans-serif;
+    
+}
+#box{
+    position:relative;
+    top:-37px;
+	width:98%;
+	max-width:650px;
+	height:250px;	
+	background-color:#fff;
+	border-radius:2px;
+	padding:20px 0 0 0;
+	margin:0px auto;
+
+
+}
+
+
+/**------------USER------------**/
+#user{
+border:1px #000000 solid;color:#000000;background:#fff;opacity: 1;
+height:40px;font-size:16px;
+display:block;width:230px;
+text-align:center;border-radius:5px;
+font-family:inherit
+}
+/**--------------------PASSWORD----------**/
+#pass{
+border:1px #000000 solid;color:#000000;background:#fff;opacity: 1;height:40px;font-size:16px;
+display:block;margin:5px;width:230px;text-align:center;border-radius:5px;font-family:inherit
+}
+/*---------------Boton---------*/
+#boton{
+	-webkit-appearance:none;color:#000000;
+	background:#ba66ff; background-image:url(lock.png);
+	background-repeat: no-repeat; background-position:center; opacity: 1;
+    border:none;border-radius:5px;height:42px;width:234px;font-size:16px;font-weight:400;outline:0;text-transform:uppercase;
+    letter-spacing:1.5px;cursor:pointer
+    }
+#boton:hover{
+	background-color:#9a0fa7;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-o-transition:all 0.3s ease;transition:all 0.3s ease
+	}
+    .vertical-form .footer{
+        position: relative;
+        top:-37px;
+        text-align:center;
+color:#000000;}
+.vertical-form .footer a{text-decoration:none;color:#ff91d5;}
+    @media (max-width:450px){
+
+       }
